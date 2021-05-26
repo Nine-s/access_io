@@ -24,20 +24,20 @@ You will need:
 - Linux
 - Python3.x with pandas and plotly
 
-This may not be mandatory. The scripts of this repository have not been tested outside of this context.
+*This may not be mandatory. The scripts of this repository have not been tested outside of this context.*
 
 ## Run
 
 ```
 sudo bash
-./systemtap "command of interest" 
+./stap "command of interest" 
 ```
 
 Example:
 
 ```
 sudo bash
-./systemtap "python my_script.py" 
+./stap "python my_script.py" 
 ```
 
 By default, it will look for the io corresponding to the read or write of the files with extensions specified in `display_io.py` (fasta, fastq, gtf, etc.).
@@ -52,7 +52,7 @@ Instead of using a file extension to filter io, it is also possible:
 
 ```
 sudo bash
-./systemtap "python my_script.py" pid 
+./stap "python my_script.py" pid 
 ```
 
 It will retrieve all the io operations corresponding to the pid of the command `python my_script.py`
@@ -61,7 +61,7 @@ It will retrieve all the io operations corresponding to the pid of the command `
 
 ```
 sudo bash
-./systemtap "python my_script.py" keyword fq 
+./stap "python my_script.py" keyword fq 
 ```
 
 It will retrieve all of the io operations concerning the filenames that contains the keyword "fq".
