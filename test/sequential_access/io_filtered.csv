@@ -1,0 +1,3 @@
+,timestamp,process_id,process_name,type,file,read,write,iotime
+99,1179215,32443,(sequential_1),access,/home/ninon/Documents/access_io/data/test_1.fq,8191,0.0,25
+101,1179976,32443,(sequential_1),access,/home/ninon/Documents/access_io/data/test_1.fq,65528,0.0,98
