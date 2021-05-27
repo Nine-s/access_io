@@ -24,7 +24,17 @@ You will need:
 - Linux
 - Python3.x with pandas and plotly
 
-*This may not be mandatory. The scripts of this repository have not been tested outside of this context.*
+*useful links:*
+
+How to use sudo inside a docker container:
+
+https://stackoverflow.com/questions/25845538/how-to-use-sudo-inside-a-docker-container
+
+Running SystemTap inside an unprivileged docker container:
+
+https://stackoverflow.com/questions/38799272/running-systemtap-inside-an-unprivileged-docker-container
+
+
 
 ## Run
 
