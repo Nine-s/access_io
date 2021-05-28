@@ -2,7 +2,8 @@
 
 ## Goal 
 
-This repository allows you to monitor the io of programs of interest.
+This repository is composed of scripts that run IO monitoring generated system tap while a program of interest is runing. Then it filters the logs according, gather results of interest, store it in a csv and displays it with plotly. 
+By default, it will gather all IO concerning files in some specific formats used by biologists. But it is also possible to gather results associated to a specific PID or keywords.
 
 ## Dependencies 
 
